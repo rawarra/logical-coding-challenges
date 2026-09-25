@@ -1,89 +1,51 @@
-# 🔢 Decimal to Binary Conversion
+## 🧠 How I Think and Solve a Coding Problem
 
-> 💡 A simple shortcut method to convert **Decimal Numbers → Binary Numbers** using logical thinking and a `while` loop.
+When I get a new coding problem, I don't start writing code immediately. I first try to understand the problem and build the logic step by step.
 
----
-
-## 🚀 Example: Convert 20 to Binary
-
-### 📌 Binary Place Values
+### 🔍 My Thinking Process
 
 ```text
- 64   32   16   8   4   2   1
-  ↓    ↓    ↓   ↓   ↓   ↓   ↓
-  0    0    1   0   1   0   0
+1. Understand the Problem
+          ↓
+2. Identify the Input
+          ↓
+3. Identify the Expected Output
+          ↓
+4. Break the Problem into Small Steps
+          ↓
+5. Think About the Logic
+          ↓
+6. Choose the Right Loop / Condition
+          ↓
+7. Write the Code
+          ↓
+8. Test with Small Examples
+          ↓
+9. Find and Fix Errors
+          ↓
+10. Improve the Solution
 ```
 
-### 🧮 Step-by-Step
+### 💭 How I Practice
 
-```text
-20 - 16 = 4   → 1
-4  - 4  = 0   → 1
-8 does not fit → 0
-Remaining places → 0
-```
+For every problem, I ask myself:
 
-Therefore:
+* ❓ What exactly is the problem asking?
+* 📥 What input will I receive?
+* 📤 What output should I produce?
+* 🧩 Can I break the problem into smaller parts?
+* 🔄 Do I need a loop?
+* 🔀 Do I need a condition?
+* 📝 Can I explain the logic in simple words before coding?
+* 🧪 What happens with a small example?
+* 🐛 What could go wrong?
+* 🚀 Can I make my solution simpler or better?
 
-```text
-20 (Decimal) = 10100 (Binary)
-```
+### 🛠️ My Practice Method
 
----
+**Think → Break Down → Plan → Code → Test → Debug → Improve**
 
-## 🔄 Why Use a `while` Loop?
+I am learning that solving coding problems is not just about writing code. The important part is **understanding the problem and finding a logical way to solve it**.
 
-We don't know in advance how many steps are required.
-
-The number of steps depends on the input:
-
-| Decimal |   Binary   |
-| :-----: | :--------: |
-|   `5`   |    `101`   |
-|   `20`  |   `10100`  |
-|  `132`  | `10000100` |
-
-A `while` loop allows us to:
-
-```text
-START
-  ↓
-Check the value
-  ↓
-Process the value
-  ↓
-Update the value
-  ↓
-Is value 0?
- ↙       ↘
-NO       YES
- ↓        ↓
-Repeat   STOP
-```
-
-### 💻 Basic Logic
-
-```javascript
-while (number > 0) {
-    // Check the binary value
-    // Update the remaining number
-}
-```
-
----
-
-## 🧠 What I Learned
-
-* 🔢 Decimal to Binary conversion
-* 🔄 How `while` loops work
-* 🧩 Breaking a problem into smaller steps
-* 💡 Improving logical thinking
-* 💻 Understanding how computers represent numbers
-
----
-
-### ⭐ Key Takeaway
-
-> **A `while` loop is useful when we don't know exactly how many times a process needs to run.**
-
-**Keep Learning • Keep Coding • Keep Improving 🚀**
+> 💡 **My Key Learning:**
+> **Don't rush to write code. First understand the problem, think about the steps, build the logic, and then write the code.**
